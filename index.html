@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Delivery App</title>
+    <link rel="stylesheet" type="text/css" href="web page.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Delivery App</h1>
+        <form id="delivery-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <br />
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required />
+            <br />
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required />
+            <br />
+            <label for="delivery-time">Delivery Time:</label>
+            <input type="time" id="delivery-time" name="delivery-time" required />
+            <br />
+            <button type="submit">Order</button>
+        </form>
+        <div id="message"></div>
+    </div>
+    <script src="form.js"></script>
+</body>
+
+</html>
